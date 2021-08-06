@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear{
+  clear: both;
+}
+
+/* IDs */
+
+#container{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(247, 173, 237, 0.822);
+}
+
+#header{
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  
+}
+
+#main{
+  background-color: lavender;
+  width: 60%;
+  float: left;
+  height: 93%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sidebar{
+  background-color: lavender;
+  float: left;
+  width: 35%;
+  height: 40%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Others */
+
+
+h3{
+  color: black;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.blog-image{
+  height: 40%;
+  width: 95%;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+P{
+  color:  grey;
+  font-family: Century Gothic;
+  font-size: 13px;
+  padding: 5px 10px 10px 10px;
+}
+
+hr{
+  color: grey;
+  opacity: 30%;
+}
+
+.profile-img{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding:10px;
+}
+
+h5{
+  font-size: 15px;
+  padding: 5px 10px 3px 0;
+}
+
+blockquote{
+  padding: 5px 10px 10px 10px;
+
+}
+
+list{
+  padding:4px 5px 2px 0;
+}
+
+list li{
+  text-decoration: none;
+  list-style-type: none;
+  padding: 2px;
+  color: grey;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h6{
+  font-size: 15px;
+}
+
+.page-icon{
+  height: 35px;
+  padding:0 10px 0 10px;
+}
